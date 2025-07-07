@@ -1,0 +1,33 @@
+button small {
+  font-size: 12px;
+  color: gray;
+}
+
+.active-date {
+  background-color: #d4f0dd;
+  border-color: #4caf50;
+}
+/* index.css */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Active date button */
+.active-date {
+  border: 2px solid #27ae60 !important;
+  color: #27ae60;
+  font-weight: 500;
+}
+
+/* Active time button */
+.cc {
+  border: 2px solid #27ae60 !important;
+  color: #27ae60;
+  font-weight: 500;
+}
+
+/* General button styling for padding */
+button {
+  padding: 10px 20px;
+  border-radius: 12px !important;
+}
