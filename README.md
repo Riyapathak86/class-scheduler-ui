@@ -14,3 +14,4 @@ It allows users to select a class date and time with a modern, clean layout.
 - Bootstrap 5
 - Custom CSS
 
+###Live URL: https://class-scheduler-ui.vercel.app/ 
