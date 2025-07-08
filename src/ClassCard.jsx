@@ -30,7 +30,7 @@ function ClassCard() {
        
         <div className="col-12 col-md-8">
           <h4 className="fw-bold">Foundation And The Basics</h4>
-          <p className="text-muted mb-3" style={{ maxWidth: "600px" }}>
+          <p className="text-muted mb-3" style={{ maxWidth: "600px" }} >
             A subset of AI that enables machines to learn from data and improve
             their performance over time without being explicitly programmed.
           </p>
