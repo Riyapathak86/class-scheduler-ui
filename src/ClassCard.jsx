@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css"; // Optional (minimal CSS below)
+import "./index.css"; 
 
 function ClassCard() {
   const days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
@@ -9,7 +9,7 @@ function ClassCard() {
       <h3 className="fw-bold mb-4 text-center text-md-start">Schedule Your Class</h3>
 
       <div className="row g-4">
-        {/* Left Section */}
+       
         <div className="col-12 col-md-4">
           <img
             src="/student.jpg"
@@ -27,7 +27,7 @@ function ClassCard() {
           </div>
         </div>
 
-        {/* Right Section */}
+       
         <div className="col-12 col-md-8">
           <h4 className="fw-bold">Foundation And The Basics</h4>
           <p className="text-muted mb-3" style={{ maxWidth: "600px" }}>
@@ -41,7 +41,6 @@ function ClassCard() {
             <span>📁 Project 0</span>
           </div>
 
-          {/* Choose Date */}
           <h6 className="fw-semibold mb-2">Choose A Date</h6>
           <div className="d-flex flex-wrap gap-2 overflow-auto mb-3 pb-1">
             {days.map((day, i) => (
@@ -62,7 +61,6 @@ function ClassCard() {
             Note: You need to schedule two or three days before the actual class starts.
           </p>
 
-          {/* Choose Time */}
           <p className="fw-semibold mb-2">Choose The Time Of The Day</p>
           <div className="d-flex flex-nowrap gap-2 overflow-auto pb-2">
             <button className="btn btn-outline-success border-success rounded-3 text-nowrap" style={{ minWidth: "120px" }}>
@@ -73,7 +71,7 @@ function ClassCard() {
               Morning<br />
               <small>7 – 8 AM</small>
             </button>
-            {/* Add more buttons as needed */}
+           
           </div>
         </div>
       </div>
