@@ -17,13 +17,16 @@ function ClassCard() {
             className="img-fluid rounded-4 shadow w-100 mb-3"
           />
 
-          <div className="d-grid gap-3">
-            <button className="btn btn-light shadow border text-center rounded-3 py-3">
+          <div className=" gap-3">
+            <div>
+                    <button className="btn btn-light shadow border text-center rounded-3 py-3 w-100 mb-3">
               📋 Copy Class Link
             </button>
-            <button className="btn btn-primary fw-semibold rounded-3 py-3">
+            </div>
+      <div w-100 mb-> <button className="btn btn-primary fw-semibold rounded-3 py-3 w-100 mb-5">
               Schedule Class
-            </button>
+            </button></div>
+           
           </div>
         </div>
 
